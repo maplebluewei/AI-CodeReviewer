@@ -206,6 +206,7 @@ def handle_gitlab_webhook(data):
 
 
 if __name__ == '__main__':
+    logger.info('AI-CodeReviewer启动')
     check_config()
     # 启动定时任务调度器
     setup_scheduler()
